@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.flex-container{
+    width: 100%;
+    height: auto ;
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+
+}
+.flex-item{
+    margin-top: 10px;
+    width: 300px;
+    height: 350px;
+    border: solid 1px;
+text-align: center;
+border-radius: 20px;
+text-align: center;
+
+}
+h1{
+    color: white;
+
+}
+img{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+
+
+#bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+   background-size: cover;
+   background-attachment: fixed;
+    background-image: url('https://as2.ftcdn.net/v2/jpg/04/29/93/03/1000_F_429930354_lA72xmxNSzMCiZSoXlNEDrkVfEHpZ3wB.jpg');
+}
